@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <style>
+        tr:nth-child(even) {
+            background: #F7F7F7;
+        }
+
+        td {
+            border: 1px solid black;
+            position: relative;
+            text-align: center
+        }
+
+        th.desc:after {
+            content: "▼";
+            font-size: 14px;
+        }
+
+        th.asc:after {
+            content: "▲";
+            font-size: 14px;
+        }
+
+        input {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <script src='./main.js'></script>
+</body>
+
+</html>
